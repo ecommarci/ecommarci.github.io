@@ -44,28 +44,28 @@ function buttonAnimation(x) {
 switch (x) {
   case "w":
   $(".w").addClass("button-on-click");
-  var sound = new Audio("sounds/crash.mp3");
+  var sound = new Audio("crash.mp3");
   sound.play();
   functionPushArray();
   break;
 
   case "a":
   $(".a").addClass("button-on-click");
-  var sound = new Audio("sounds/kick-bass.mp3");
+  var sound = new Audio("kick-bass.mp3");
   sound.play();
   functionPushArray();
   break;
 
   case "s":
   $(".s").addClass("button-on-click");
-  var sound = new Audio("sounds/snare.mp3");
+  var sound = new Audio("snare.mp3");
   sound.play();
   functionPushArray();
   break;
 
   case "d":
   $(".d").addClass("button-on-click");
-  var sound = new Audio("sounds/tom-4.mp3");
+  var sound = new Audio("tom-4.mp3");
   sound.play();
   functionPushArray();
   break;
